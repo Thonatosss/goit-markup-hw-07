@@ -1,0 +1,62 @@
+.advantages .advantages-title {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  .advantages-title {
+    margin-bottom: 10px;
+  }
+  .advantages-list {
+    display: flex;
+    justify-content: center;
+  }
+  .hidden-title {
+    text-align: center;
+  }
+  .advantages-info {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+  }
+  .advantages-info-container {
+    width: 270px;
+  }
+  .advantages:not(:last-child) {
+    margin-right: 30px;
+  }
+  .adress .advantages {
+    color: var(--secondary-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+  
+    letter-spacing: 0.03em;
+  }
+  .advantages {
+    width: calc((100% - 90px) / 4);
+  }
+  .hidden-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  .advantages-svg {
+    height: 120px;
+    background: #f5f4fa;
+    border-radius: 4px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  

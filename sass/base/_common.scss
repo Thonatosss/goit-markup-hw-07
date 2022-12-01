@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  input,
+textarea {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  outline: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+  }
+  .list {
+    display: flex;
+  }
+  .list-killer {
+    list-style: none;
+  }
+  .links {
+    text-decoration: none;
+  }

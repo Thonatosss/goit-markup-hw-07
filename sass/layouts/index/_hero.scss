@@ -1,0 +1,57 @@
+.order-btn {
+    color: var(--primary-white-color);
+    background-color: #2196f3;
+  
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    font-family: inherit;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border-width: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: inline-block;
+  
+    min-width: 216px;
+  
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+  
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .order-btn:hover,
+  .order-btn:focus {
+    background: #188ce8;
+  }
+  .hero {
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/Portfolio/bgimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    padding-top: 200px;
+    padding-bottom: 210px;
+  }
+  .hero-title {
+    font-size: 44px;
+    line-height: 1.36;
+    font-weight: 900;
+    color: #ffffff;
+    letter-spacing: 0.06em;
+  }
+  .hero-div {
+    text-align: center;
+  }
+  
