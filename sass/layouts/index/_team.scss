@@ -1,4 +1,4 @@
-.team-title {
+.our-team-section__title {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -14,23 +14,25 @@
     line-height: 1.1875;
   
     letter-spacing: 0.03em;
+    & {
+      text-align: center;
+      margin-bottom: 10px;
+    }
   }
-  .member-name {
-    text-align: center;
-    margin-bottom: 10px;
-  }
+  
   
   .our-team .team-member .about-member {
     font-size: 16px;
     line-height: 1.1875;
     color: var(--secondary-text-color);
     letter-spacing: 0.03em;
+    & {
+      text-align: center;
+      margin-bottom: 16px;
+    }
   }
-  .about-member {
-    text-align: center;
-    margin-bottom: 16px;
-  }
-  .team-member {
+  
+  .our-team-section__memberr {
     width: calc((100% - 90px) / 4);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -75,7 +77,7 @@
     border-radius: 0px 0px 4px 4px;
   }
   
-  .our-team {
+  .our-team-section__list {
     display: flex;
     justify-content: center;
     flex-basis: calc((100% - 90px) / 4);

@@ -3,10 +3,11 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    & {
+      margin-bottom: 10px;
+    }
   }
-  .advantages-list__title {
-    margin-bottom: 10px;
-  }
+  
   .advantages-list {
     display: flex;
     justify-content: center;
@@ -23,9 +24,7 @@
   .advantages-info-container {
     width: 270px;
   }
-  .advantages-list__item:not(:last-child) {
-    margin-right: 30px;
-  }
+  
   .adress .advantages {
     color: var(--secondary-text-color);
     font-size: 14px;
@@ -35,6 +34,9 @@
   }
   .advantages-list__item {
     width: calc((100% - 90px) / 4);
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   .hidden-title {
     position: absolute;

@@ -12,7 +12,7 @@
   .about__photo{
     position: relative;
   }
-  .description {
+  .about__description {
     font-size: 14px;
     line-height: 1.14;
     text-align: center;
@@ -31,4 +31,7 @@
   }
   .about.section {
     padding-top: 0;
+  }
+  .about__list {
+    display: flex;
   }

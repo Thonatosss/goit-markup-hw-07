@@ -393,12 +393,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .list-killer {
   list-style: none;
 }
@@ -756,8 +750,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
-.advantages-list__title {
+.advantages .advantages-list__title {
   margin-bottom: 10px;
 }
 
@@ -785,10 +778,6 @@ body {
   width: 270px;
 }
 
-.advantages-list__item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .adress .advantages {
   color: var(--secondary-text-color);
   font-size: 14px;
@@ -798,6 +787,9 @@ body {
 
 .advantages-list__item {
   width: calc((100% - 90px) / 4);
+}
+.advantages-list__item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .hidden-title {
@@ -884,7 +876,7 @@ body {
   fill: #2196f3;
 }
 
-.team-title {
+.our-team-section__title {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -902,8 +894,7 @@ body {
   line-height: 1.1875;
   letter-spacing: 0.03em;
 }
-
-.member-name {
+.our-team .member-name {
   text-align: center;
   margin-bottom: 10px;
 }
@@ -914,13 +905,12 @@ body {
   color: var(--secondary-text-color);
   letter-spacing: 0.03em;
 }
-
-.about-member {
+.our-team .team-member .about-member {
   text-align: center;
   margin-bottom: 16px;
 }
 
-.team-member {
+.our-team-section__members {
   width: calc((100% - 90px) / 4);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -976,7 +966,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.our-team {
+.our-team-section__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1009,7 +999,7 @@ body {
   position: relative;
 }
 
-.description {
+.about__description {
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
@@ -1026,6 +1016,12 @@ body {
 
 .about.section {
   padding-top: 0;
+}
+
+.about__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .filters button {
