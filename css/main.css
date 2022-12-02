@@ -738,7 +738,7 @@ body {
   padding-bottom: 210px;
 }
 
-.hero-title {
+.hero__title {
   font-size: 44px;
   line-height: 1.36;
   font-weight: 900;
@@ -750,14 +750,14 @@ body {
   text-align: center;
 }
 
-.advantages .advantages-title {
+.advantages .advantages-list__title {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.advantages-title {
+.advantages-list__title {
   margin-bottom: 10px;
 }
 
@@ -774,7 +774,7 @@ body {
   text-align: center;
 }
 
-.advantages-info {
+.advantages-list__info {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -785,7 +785,7 @@ body {
   width: 270px;
 }
 
-.advantages:not(:last-child) {
+.advantages-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -796,7 +796,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.advantages {
+.advantages-list__item {
   width: calc((100% - 90px) / 4);
 }
 
@@ -814,7 +814,7 @@ body {
   overflow: hidden;
 }
 
-.advantages-svg {
+.advantages-list__svg {
   height: 120px;
   background: #f5f4fa;
   border-radius: 4px;
@@ -993,11 +993,11 @@ body {
   padding-bottom: 30px;
 }
 
-.about-list-item:not(:last-child) {
+.about-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.what-are-we-doing {
+.about__title {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -1005,9 +1005,7 @@ body {
   margin-bottom: 50px;
 }
 
-.first-photo,
-.second-photo,
-.third-photo {
+.about__photo {
   position: relative;
 }
 

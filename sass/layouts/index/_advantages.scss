@@ -1,10 +1,10 @@
-.advantages .advantages-title {
+.advantages .advantages-list__title {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
   }
-  .advantages-title {
+  .advantages-list__title {
     margin-bottom: 10px;
   }
   .advantages-list {
@@ -14,7 +14,7 @@
   .hidden-title {
     text-align: center;
   }
-  .advantages-info {
+  .advantages-list__info {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -23,7 +23,7 @@
   .advantages-info-container {
     width: 270px;
   }
-  .advantages:not(:last-child) {
+  .advantages-list__item:not(:last-child) {
     margin-right: 30px;
   }
   .adress .advantages {
@@ -33,7 +33,7 @@
   
     letter-spacing: 0.03em;
   }
-  .advantages {
+  .advantages-list__item {
     width: calc((100% - 90px) / 4);
   }
   .hidden-title {
@@ -48,7 +48,7 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  .advantages-svg {
+  .advantages-list__svg {
     height: 120px;
     background: #f5f4fa;
     border-radius: 4px;

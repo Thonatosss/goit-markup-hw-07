@@ -1,17 +1,15 @@
-.about-list-item:not(:last-child) {
+.about-list__item:not(:last-child) {
     margin-right: 30px;
   }
   
-  .what-are-we-doing {
+  .about__title {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
   }
-  .first-photo,
-  .second-photo,
-  .third-photo {
+  .about__photo{
     position: relative;
   }
   .description {
