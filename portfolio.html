@@ -10,41 +10,45 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <header class="header">
       <div class="container header-flex">
         <a href="" class="logo links"
-          ><span class="logo-web">Web</span
-          ><span class="logo-studio">Studio</span></a
+          ><span class="logo__web-text">Web</span
+          ><span class="logo__studio-text">Studio</span></a
         >
         <nav class="navigation">
           <ul class="navigation-list list-killer">
-            <li class="navigation-list-item">
-              <a href="./index.html" class="navigation-link-studio links ">Студія</a>
+            <li class="navigation-list__item">
+              <a
+                href="./index.html"
+                class="navigation-list__link links "
+                >Студія</a
+              >
             </li>
-            <li class="navigation-list-item">
-              <a href="./portfolio.html" class="navigation-link-portfolio links underscore"
+            <li class="navigation-list__item">
+              <a href="./portfolio.html" class="navigation-list__link links underscore"
                 >Портфоліо</a
               >
             </li>
-            <li class="navigation-list-item">
-              <a href="" class="navigation-link-contacts links">Контакти</a>
+            <li class="navigation-list__item">
+              <a href="" class="navigation-list__link links">Контакти</a>
             </li>
           </ul>
         </nav>
 
         <ul class="adress links list-killer">
-          <li class="adress-item">
-            <a href="mailto:info@devstudio.com" class="adress-link links">
-              <svg class="icon-envelope" width="16" height="12">
+          <li class="adress__item">
+            <a href="mailto:info@devstudio.com" class="adress__link links">
+              <svg class="adress__icon-envelope" width="16" height="12">
                 <use href="./images/Sprite/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="adress-item">
-            <a href="tel:+380961111111" class="adress-link links">
-              <svg class="icon-envelope" width="10" height="16">
+          <li class="adress__item">
+            <a href="tel:+380961111111" class="adress__link links">
+              <svg class="adress__icon-envelope" width="10" height="16">
                 <use href="./images/Sprite/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11
@@ -53,7 +57,6 @@
         </ul>
       </div>
     </header>
-
     <!-- Секція з нашими роботами -->
     <main>
       <section class="main-section section">
@@ -303,12 +306,10 @@
 
     <footer class="footer">
       <div class="container">
-       
-          
         <div class="adress-div">
-          <a href="" lang="en" class="logo logo-footer links test-items"
-          ><span class="logo-web">Web</span
-          ><span class="footer-logo-studio">Studio</span></a
+          <a href="" class="logo links"
+          ><span class="logo__web-text">Web</span
+          ><span class="footer__logo-studio">Studio</span></a
         >
           <address class="footer-adress">
             <ul class="footer-adress-list list-killer">
@@ -321,7 +322,7 @@
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-  
+
               <li class="footer-adress-space">
                 <a class="footer-tel links" href="tel:+380961111111 "
                   >+38 096 111 11 11
@@ -334,61 +335,56 @@
               </li>
             </ul>
           </address>
-
         </div>
-       <div class="join-div">
-        <h3 class="join-title">Приєднуйтесь</h3>
+        <div class="join-div">
+          <h3 class="join-title">Приєднуйтесь</h3>
 
-        <ul class="join-soc-list list-killer">
-          <li class="join-list-item">
-            <a class="join-link links" href="">
-              <svg class="icon-join" width="20px" height="20px">
-                <use href="./images/Sprite/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="join-list-item">
-            <a class="join-link links" href="">
-              <svg class="icon-join" width="20px" height="20px">
-                <use href="./images/Sprite/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="join-list-item">
-            <a class="join-link links" href="">
-              <svg class="icon-join" width="20px" height="20px">
-                <use href="./images/Sprite/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="join-list-item">
-            <a class="join-link links" href="">
-              <svg class="icon-join" width="20px" height="20px">
-                <use href="./images/Sprite/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-
-       </div>
-        
-       <div class="newsletter">
-        <label for="email" class="newsletter-label">Підпишіться на розсилку</label>
-        <div class="newsletter-input-btn">
-          <input type="email" name="email" id="email" class="newsletter-input" placeholder="E-mail" >
-          <button type="submit" class="newsletter-btn">Підписатися
-            <svg class="newsletter-btn-icon" width="24" height="24px">
-              <use href="./images/Sprite/icons.svg#icon-send">
-
-              </use>
-            </svg>
-          </button>
+          <ul class="join-soc-list list-killer">
+            <li class="join-list-item">
+              <a class="join-link links" href="">
+                <svg class="icon-join" width="20px" height="20px">
+                  <use href="./images/Sprite/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-list-item">
+              <a class="join-link links" href="">
+                <svg class="icon-join" width="20px" height="20px">
+                  <use href="./images/Sprite/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-list-item">
+              <a class="join-link links" href="">
+                <svg class="icon-join" width="20px" height="20px">
+                  <use href="./images/Sprite/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="join-list-item">
+              <a class="join-link links" href="">
+                <svg class="icon-join" width="20px" height="20px">
+                  <use href="./images/Sprite/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
-        
+        <div class="newsletter">
+          <label for="email" class="newsletter-label">Підпишіться на розсилку</label>
+          <div class="newsletter-input-btn">
+            <input type="email" name="email" id="email" class="newsletter-input" placeholder="E-mail" >
+            <button type="submit" class="newsletter-btn">Підписатися
+              <svg class="newsletter-btn-icon" width="24px" height="24px">
+                <use href="./images/Sprite/icons.svg#icon-send">
+
+                </use>
+              </svg>
+            </button>
+          </div>
+          
+        </div>
       </div>
-        
-      </div>
-        
     </footer>
   </body>
   <script src="./js/modal.js"></script>
