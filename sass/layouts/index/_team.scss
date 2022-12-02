@@ -50,19 +50,21 @@
     align-items: center;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+    background-color: #2196f3;
+  }
   }
   .soc-icon {
     fill: #afb1b8;
     transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .soc-link:hover,
-  .soc-link:focus {
-    background-color: #2196f3;
-  }
-  .soc-link:hover .soc-icon,
-  .soc-link:focus .soc-icon {
+    .soc-link:hover &,
+  .soc-link:focus & {
     fill: #ffffff;
   }
+  }
+  
+  
   
   .member {
     flex-basis: calc((100% - 90px) / 4);

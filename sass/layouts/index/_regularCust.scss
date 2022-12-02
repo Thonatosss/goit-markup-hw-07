@@ -1,40 +1,39 @@
 .regular-customers {
-    font-size: 36px;
-    line-height: 1, 16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    margin-bottom: 50px;
-  }
-  .customer-list {
-    display: flex;
-    gap: 30px;
-  }
-  .custumer-list-item {
-    display: flex;
-    width: calc((100% - 150px) / 6);
-    height: 92px;
-  }
-  
-  .custumer-list-link {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #afb1b8;
-    border-radius: 4px;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .customer-icon {
-    fill: #afb1b8;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .custumer-list-link:hover .customer-icon,
-  .custumer-list-link:focus .customer-icon {
-    fill: #2196f3;
-  }
-  .custumer-list-link:hover,
-  .custumer-list-link:focus {
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.customer-list {
+  display: flex;
+  gap: 30px;
+}
+.custumer-list-item {
+  display: flex;
+  width: calc((100% - 150px) / 6);
+  height: 92px;
+}
+
+.custumer-list-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
     border-color: #2196f3;
   }
-  
+}
+.customer-icon {
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .custumer-list-link:hover &,
+  .custumer-list-link:focus & {
+    fill: #2196f3;
+  }
+}
