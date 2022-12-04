@@ -36,9 +36,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
   
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include toLevel(flex, center, center);
   }
   
   .is-hidden {

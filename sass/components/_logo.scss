@@ -9,13 +9,18 @@
     line-height: 1.1923;
   
     letter-spacing: 0.03em;
+    
   }
   .logo__web-text {
-    color: var(--accent-color);
+    color: $accentColor;
   }
   .logo__studio-text {
     color: #000000;
   }
+  
   .footer__logo-studio {
     color: #ffffff;
+  }
+  .footer__logo-web{
+    color: $accentColor;
   }

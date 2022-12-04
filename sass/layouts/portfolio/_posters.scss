@@ -21,9 +21,7 @@
     letter-spacing: 0.03em;
     color: #ffffff;
     padding: 0 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include toLevel(flex, center, center);
   
     content: "";
     width: 100%;

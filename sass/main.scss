@@ -1,5 +1,8 @@
-@import './utils/vars'; 
+@import './utils/vars';
+@import './utils/pholders';
 @import './utils/hide';
+@import './utils/mixin';
+
 
 
 @import './components/container';
@@ -8,6 +11,9 @@
 @import './components/section';
 @import'./components/modal';
 @import'./components/form';
+@import'./components/navigation';
+@import'./components/adress';
+
 
 @import './base/resets';
 @import './base/common';

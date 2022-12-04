@@ -1,7 +1,7 @@
 .list-item .poster-title {
     font-size: 18px;
     line-height: 2;
-    color: var(--primary-text-color);
+    color: $primaryTextColor;
   
     letter-spacing: 0.06em;
   }
@@ -9,7 +9,7 @@
   .list-item .poster-filter {
     font-size: 16px;
     line-height: 1.88;
-    color: var(--secondary-text-color);
+    color: $secondaryTextColor;
     letter-spacing: 0.03em;
   }
   .main-section-list {

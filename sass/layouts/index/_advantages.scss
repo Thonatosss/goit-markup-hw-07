@@ -1,4 +1,4 @@
-.advantages .advantages-list__title {
+.advantages-list__title {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -9,8 +9,7 @@
   }
   
   .advantages-list {
-    display: flex;
-    justify-content: center;
+    @include toLevel(flex, center, null);
   }
   .hidden-title {
     text-align: center;
@@ -19,14 +18,14 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
+    color: $secondaryTextColor;
   }
   .advantages-info-container {
     width: 270px;
   }
   
   .adress .advantages {
-    color: var(--secondary-text-color);
+    color: $secondaryTextColor;
     font-size: 14px;
     line-height: 1.71;
   
@@ -55,9 +54,7 @@
     background: #f5f4fa;
     border-radius: 4px;
     display: inline-block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include toLevel(flex, center, center);
     margin-bottom: 30px;
   }
   
